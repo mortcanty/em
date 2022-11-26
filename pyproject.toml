@@ -1,0 +1,19 @@
+# pyproject.toml
+
+[project]
+name = "emclass"
+version = "1.0.0"
+readme = "README.md"
+authors = [{ name = "mortcanty", email = "mort.canty@gmail.com" }]
+license = { file = "LICENSE" }
+keywords = ["expectation maximization", "unsupervised classification", "clustering"]
+dependencies = [
+    "gdal >= 3.4.1",
+    "scipy",
+    "numpy",
+    'tomli; python_version < "3.11"',
+]
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://github.com/mortcanty/em"
